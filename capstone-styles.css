@@ -1,0 +1,54 @@
+/* Basic page styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(240, 240, 240);
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header and navigation */
+header {
+  background-color: white;
+  border-bottom: 1px solid gray;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+nav a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: blue;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main content area */
+main {
+  background-color: white;
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+main h2 {
+  margin-top: 0;
+}
+
+main p {
+  margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: gray;
+}
