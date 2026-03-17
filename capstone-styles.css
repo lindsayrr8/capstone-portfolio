@@ -94,6 +94,34 @@ p {
 
 
 
+/* Home navigation tiles */
+
+.home-tiles {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.tile {
+  display: block;
+  background-color: rgb(245,245,245);
+  border: 1px solid gray;
+  padding: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.tile:hover {
+  background-color: rgb(230,230,230);
+  box-shadow: 2px 2px 8px gray;
+}
+
+.tile h3 {
+  margin-top: 0;
+}
+
+
 
 
 
